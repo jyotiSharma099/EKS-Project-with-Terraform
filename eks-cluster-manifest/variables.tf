@@ -72,7 +72,7 @@ variable "eks_oidc_root_ca_thumbprint" {
 }
 
 
-variable "RdsCredentialsforadmin" {
+variable "RdsCredentialsforadm" {
   type = map(string)
   default = {
     username = "jyoti"
